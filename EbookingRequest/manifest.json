@@ -1,0 +1,19 @@
+{
+"manifest_version": 2,
+"name": "EBooking Requests Status",
+"version":"0.0.1",
+"description":"EBooking Approved Requests Count",
+"browser_action": {
+        "default_icon": "icons/19.png",
+        "default_title": "Requests",
+        "default_popup": "browseraction/popup.html"
+    },
+"background": {
+        "scripts": ["JQuery.js","background.js"],
+        "persistent": false
+    },
+"permissions": [
+ "http://*/"
+  
+]
+}
